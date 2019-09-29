@@ -19,6 +19,7 @@ ClassMethod SampleMethod() As %Status
 }
 
 // Some method that we call on each iteration
+
 ClassMethod Action(pMes) As %Status
 {
 	try {
@@ -75,3 +76,4 @@ ClassMethod Foreach(ByRef pVal, pFunc, pClass As %String = "") As %Status
 }
 
 }
+
