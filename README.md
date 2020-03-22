@@ -38,8 +38,8 @@ Open InterSystems IRIS terminal:
 $ docker-compose exec iris iris session iris
 USER>zn "IRISAPP"
 IRISAPP>write ##class(Iteration.Loop).SampleMethod()
-some
-thing
+Dynamic 1
+Dynamic 2
 ```
 
 This function sends a simple variable with some elements, and calls on a sample method that writes it's parameter out to the console.
