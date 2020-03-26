@@ -6,7 +6,7 @@ XData MyInstall [ XMLNamespace = INSTALLER ]
 <Manifest>
   <Default Name="NAMESPACE" Value="USER"/>
   <Default Name="DBNAME" Value="USER"/>
-  <Default Name="APPPATH" Dir="/opt/app/" />
+  <Default Name="APPPATH" Dir="/opt/irisapp/" />
   <Default Name="SOURCESPATH" Dir="${APPPATH}src" />
   <Default Name="RESOURCE" Value="%DB_${DBNAME}" /> 
 
